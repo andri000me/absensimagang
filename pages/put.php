@@ -10,7 +10,7 @@ $query = mysql_query("INSERT INTO absen VALUES('$nim', '$timestamp')") or die(my
 
 if ($query) {
 	echo "<script>
-alert('Berhasil Menginputkan NIM!');
+alert('Berhasil Menginputkan Data!');
 window.location.href='index.php';
 </script>";
 }

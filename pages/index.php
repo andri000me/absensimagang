@@ -109,8 +109,29 @@
 <br>
 <form class="form-inline" role="form" action="put.php" method="post">
     <div class="form-group">
-      <label for="nim">NIM : </label>
-      <input required type="number" class="form-control" id="nim" name="nim" placeholder="NIM Kamu">
+      <!-- <label for="nim">NIM : </label>
+      <input required type="number" class="form-control" id="nim" name="nim" placeholder="NIM Kamu"> -->
+      <label for="nim">Silahkan Pilih Nama Kamu : </label>
+  <select class="form-control" id="nim" name="nim">
+    <option>Ahmad Faiz Rusydi</option>
+    <option>Amin Aenurahman</option>
+    <option>Bram Andika</option>
+    <option>Danastri Ratna Nursanti D</option>
+    <option>Ery Erfiza Ratman</option>
+    <option>Fitra C A</option>
+    <option>Henky Agie F</option>
+    <option>Hikayatul Isri</option>
+    <option>I Gede Ady Surya</option>
+    <option>Inka Hashari</option>
+    <option>Iriana</option>
+    <option>Kartika Findra Resiandi</option>
+    <option>Laily Oktaviana</option>
+    <option>Otsavianto Rukmananda</option>
+    <option>Renaldi Permana Putra</option>
+    <option>Rifqi Amalia</option>
+    <option>Sania Asri Monica</option>
+    <option>Wenda Adi Irawan</option>
+  </select>
     </div>
     
     <button type="submit" class="btn btn-default">Submit</button>
